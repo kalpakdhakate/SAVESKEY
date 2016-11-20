@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To add a new keyboard, go to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pu8-uN-sdd">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pu8-uN-sdd" secondAttribute="height" multiplier="230:21" id="IjK-aZ-rzF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings &gt; General &gt; Keyboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tl-0D-zVn">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6tl-0D-zVn" secondAttribute="height" multiplier="79:7" id="CfA-qt-7kj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt; Keyboards &gt; Add a new keyboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc6-cU-ZTI">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oc6-cU-ZTI" secondAttribute="height" multiplier="278:21" id="70V-AI-NDL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt; SAVESKEY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTu-hz-Dpp">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UTu-hz-Dpp" secondAttribute="height" multiplier="101:21" id="HiT-Ze-FYX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap to open Keyboard" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-F5-0D0">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eVC-F5-0D0" secondAttribute="height" multiplier="163:30" id="4bK-jU-yRo"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UTu-hz-Dpp" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="6WR-pn-eLe"/>
+                            <constraint firstItem="oc6-cU-ZTI" firstAttribute="top" secondItem="6tl-0D-zVn" secondAttribute="bottom" constant="19" id="9Ig-wS-Mr8"/>
+                            <constraint firstItem="eVC-F5-0D0" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="Amv-Uh-wgv"/>
+                            <constraint firstItem="6tl-0D-zVn" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="ByC-Hn-avH"/>
+                            <constraint firstItem="eVC-F5-0D0" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="G2g-D2-bhb"/>
+                            <constraint firstItem="oc6-cU-ZTI" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="GGf-aK-4KB"/>
+                            <constraint firstItem="UTu-hz-Dpp" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="KIf-G5-yBO"/>
+                            <constraint firstItem="eVC-F5-0D0" firstAttribute="top" secondItem="UTu-hz-Dpp" secondAttribute="bottom" constant="59" id="Tky-Ga-wmN"/>
+                            <constraint firstItem="UTu-hz-Dpp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VIj-by-VRG"/>
+                            <constraint firstItem="6tl-0D-zVn" firstAttribute="top" secondItem="Pu8-uN-sdd" secondAttribute="bottom" constant="19" id="XEC-4C-j0f"/>
+                            <constraint firstItem="Pu8-uN-sdd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="30" id="YAT-U5-MkJ"/>
+                            <constraint firstItem="UTu-hz-Dpp" firstAttribute="top" secondItem="oc6-cU-ZTI" secondAttribute="bottom" constant="19" id="ZUa-Wz-1GB"/>
+                            <constraint firstItem="oc6-cU-ZTI" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="h8z-qw-Me0"/>
+                            <constraint firstItem="6tl-0D-zVn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nSc-Y5-52s"/>
+                            <constraint firstItem="oc6-cU-ZTI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pyw-XQ-QmO"/>
+                            <constraint firstItem="eVC-F5-0D0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="stA-48-VAu"/>
+                            <constraint firstItem="6tl-0D-zVn" firstAttribute="centerX" secondItem="Pu8-uN-sdd" secondAttribute="centerX" id="swD-6Y-bLm"/>
+                            <constraint firstItem="Pu8-uN-sdd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="woC-L2-7gh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
